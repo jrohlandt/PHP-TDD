@@ -6,5 +6,9 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Acme\\Addition' => $baseDir . '/src/Addition.php',
+    'Acme\\Calculator' => $baseDir . '/src/Calculator.php',
     'Acme\\Foo' => $baseDir . '/src/Foo.php',
+    'Acme\\Multiplication' => $baseDir . '/src/Multiplication.php',
+    'Acme\\Operation' => $baseDir . '/src/Operation.php',
 );
